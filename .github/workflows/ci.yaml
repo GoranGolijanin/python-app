@@ -27,7 +27,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: gorangolijanin/python-app:${{ env.COMMIT_ID }}
           tags: gorangolijanin/python-app:latest
     outputs:
       commit_id: ${{ env.COMMIT_ID }}
