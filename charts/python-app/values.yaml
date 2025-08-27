@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: gorangolijanin/python-app
   pullPolicy: Always
-  tag: 1f57bd
+  tag: 911cbc
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
