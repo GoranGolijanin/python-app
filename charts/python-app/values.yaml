@@ -1,8 +1,8 @@
 replicaCount: 1
 image:
   repository: gorangolijanin/python-app
-  pullPolicy: IfNotPresent
-  tag: ed7159
+  pullPolicy: Always
+  tag: latest
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
