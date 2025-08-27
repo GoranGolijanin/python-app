@@ -15,4 +15,3 @@ spec:
             name: python-app
             port:
               number: 8080
-              

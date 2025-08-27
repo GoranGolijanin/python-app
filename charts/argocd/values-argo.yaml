@@ -14,7 +14,7 @@ applicationSet:
   replicas: 1
 
 global:
-  domain: phpmyadmin4.medjed.org
+  domain: phpmyadmin.medjed.org
 
 certificate:
   enabled: true
@@ -24,5 +24,5 @@ server:
     annotations:
       nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
     enabled: true
-    ingressClassName: "nginx"
-    tls: false
+    ingressClassName: nginx
+    tls: true
