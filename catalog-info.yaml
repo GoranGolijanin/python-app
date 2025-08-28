@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app
+  description: Python app that displays time
+  github.com/project-slug: gorangolijanin/python-app
+spec:
+  type: website
+  owner: development
+  lifecycle: experimental
